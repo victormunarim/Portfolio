@@ -13,10 +13,10 @@ import {
     Box,
 } from 'grommet';
 
-export default function botao({conteudo}) {
+export default function botao({ conteudo }) {
     return (
-        <Box margin={{right: '50px'}} border={{ color: 'white', size: '2px' }}>
-            <Button>{conteudo}</Button>
+        <Box margin={{ right: '50px' }} pad='5px'>
+            <Button color='white' plain={false}>{conteudo}</Button>
         </Box>
     )
 }
