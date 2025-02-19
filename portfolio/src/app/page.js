@@ -11,16 +11,20 @@ import {
   Text,
   Button,
   Menu,
+  Box,
 } from 'grommet';
-import Teste from './components/teste'
+import Botao from './components/teste'
 
 export default function Home() {
   return (
-    <Header justify="end" align="center" gap='60px' background="grey" height='90px' pad={{right: '60px'}}>
-      <Button label='Resumo' hoverIndicator />
-      <Button label='Projetos' hoverIndicator />
-      <Button label='Competências' hoverIndicator />
-      <Button label='Redes' hoverIndicator />
-    </Header>
+    <Box direction="row" justify="between" align="center" height='70px' width='100%' background='grey' >
+      <Text margin={{ left: '50px' }}>Portfólio</Text>
+      <Box direction="row">
+        <Botao conteudo={'Resumo'}></Botao>
+        <Botao conteudo={'Projetos'}></Botao>
+        <Botao conteudo={'Competências'}></Botao>
+        <Botao conteudo={'Redes'}></Botao>
+      </Box>
+    </Box>
   );
 }
