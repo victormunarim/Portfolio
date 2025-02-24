@@ -13,7 +13,7 @@ import {
   Menu,
   Box,
 } from 'grommet';
-import Botao from './components/teste'
+import Botao from './components/botoes'
 
 export default function Home() {
   return (
