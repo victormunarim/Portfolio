@@ -20,7 +20,7 @@ import Competencias from './components/competencias'
 export default function Home() {
   return (
     <>
-      <Box direction="row" justify="between" align="center" height='70px' width='100%' background='black' >
+      <Header sticky="scrollup" direction="row" justify="between" align="center" height='70px' width='100%' background='black' >
         <Text margin={{ left: '50px' }} size='25px'>Portfólio</Text>
         <Box direction="row">
           <Botao conteudo={'Resumo'}></Botao>
@@ -28,13 +28,13 @@ export default function Home() {
           <Botao conteudo={'Competências'}></Botao>
           <Botao conteudo={'Redes'}></Botao>
         </Box>
-      </Box>
+      </Header>
       <Box direction="row">
         <Box>
           <Box>
             <Text margin={{ top: '50px', left: '50px' }} size='25px'>Resumo</Text>
           </Box>
-          <Box width='550px' height='400px' margin={{ left: '50px', top: '15px' }} round='20px' background='light-2' >
+          <Box width='550px' height='800px' margin={{ left: '50px', top: '15px' }} round='20px' background='light-2' >
             <Text wordBreak='break-word' margin='20px'>odjfsdkmfpddddddddddddddddddddddddddddddddddmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmsdf</Text>
           </Box>
         </Box>
