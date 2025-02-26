@@ -15,8 +15,8 @@ import {
 
 export default function competencias({ conteudo }) {
     return (
-        <Box margin={{right: '50px'}} round='20px' pad='10px' width='fit-content' height='fit-content' background='light-2'>
-            <Text>{conteudo}</Text>
+        <Box elevation='large' margin={{right: '50px'}} round='20px' pad='10px' width='fit-content' height='fit-content' background='black'>
+            <Text color='white'>{conteudo}</Text>
         </Box>
     )
 }
