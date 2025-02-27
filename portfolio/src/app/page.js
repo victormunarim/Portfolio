@@ -26,10 +26,19 @@ export default function Home() {
       <Header sticky="scrollup" direction="row" justify="between" align="center" height='70px' width='100%' background='black' >
         <Text margin={{ left: '70px' }} size='25px'>Portfólio</Text>
         <Box direction="row">
-          <Botao conteudo={'Resumo'}></Botao>
-          <Botao conteudo={'Competências'}></Botao>
-          <Botao conteudo={'Projetos'}></Botao>
-          <Botao conteudo={'Redes'}></Botao>
+          <Box margin={{ right: '50px' }} pad='5px'>
+            <Button color='white' plain={false}>Resumo</Button>
+          </Box>
+          <Box margin={{ right: '50px' }} pad='5px'>
+            <Button color='white' plain={false}>Competências</Button>
+          </Box>
+          <Box margin={{ right: '50px' }} pad='5px'>
+            <Button color='white' plain={false}>Projetos</Button>
+          </Box>
+          <Box margin={{ right: '50px' }} pad='5px'>
+            <Button color='white' plain={false}>Redes</Button>
+          </Box>
+
         </Box>
       </Header>
       <Box direction="row" justify='center'>
@@ -41,8 +50,8 @@ export default function Home() {
           <Box>
             <Text margin={{ top: '50px', left: '70px' }} size='25px'>Resumo</Text>
           </Box>
-          <Box elevation='large' width='550px' height='400px' margin={{ left: '70px', top: '15px' }} round='20px' background='black' >
-            <Text color='white' wordBreak='break-word' margin='20px'>odjfsdkmfpddddddddddddddddddddddddddddddddddmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmsdf</Text>
+          <Box elevation='large' width='550px' height='fill' margin={{ left: '70px', top: '15px' }} round='20px' background='black' >
+            <Text color='white' size='30px' wordBreak='break-word' margin='20px'>odjfsdkmfpddddddddddddddddddddddddddddddddddmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmsdf</Text>
           </Box>
         </Box>
       </Box>
