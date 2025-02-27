@@ -1,7 +1,6 @@
 // import Image from "next/image";
 import { Github, Linkedin, WhatsApp, MailOption, Mail } from 'grommet-icons';
 import {
-  Header,
   Page,
   PageContent,
   Heading,
@@ -17,30 +16,13 @@ import {
   Carousel,
   Image,
 } from 'grommet';
-import Botao from './components/botoes'
+import Topo from './components/topo.jsx'
 import Competencias from './components/competencias'
 
 export default function Home() {
   return (
     <>
-      <Header sticky="scrollup" direction="row" justify="between" align="center" height='70px' width='100%' background='black' >
-        <Text margin={{ left: '70px' }} size='25px'>Portfólio</Text>
-        <Box direction="row">
-          <Box margin={{ right: '50px' }} pad='5px'>
-            <Button color='white' plain={false}>Resumo</Button>
-          </Box>
-          <Box margin={{ right: '50px' }} pad='5px'>
-            <Button color='white' plain={false}>Competências</Button>
-          </Box>
-          <Box margin={{ right: '50px' }} pad='5px'>
-            <Button color='white' plain={false}>Projetos</Button>
-          </Box>
-          <Box margin={{ right: '50px' }} pad='5px'>
-            <Button color='white' plain={false}>Redes</Button>
-          </Box>
-
-        </Box>
-      </Header>
+    <Topo></Topo>
       <Box direction="row" justify='center'>
         <Box elevation='large' margin={{ top: '50px' }} width='300px' height='450px'>
           <Image fit='cover' src='https://img.freepik.com/fotos-gratis/retrato-de-homem-branco-isolado_53876-40306.jpg'>
@@ -60,18 +42,9 @@ export default function Home() {
           <Text margin={{ top: '50px' }} size='25px'>Competências</Text>
         </Box>
         <Box wrap height='350px' width='550px' direction="row" margin={{ left: '70px', top: '35px' }}>
-          <Competencias conteudo='comapd'></Competencias>
-          <Competencias conteudo='comapd'></Competencias>
-          <Competencias conteudo='comapd'></Competencias>
-          <Competencias conteudo='comapd'></Competencias>
-          <Competencias conteudo='comapd'></Competencias>
-          <Competencias conteudo='comapd'></Competencias>
-          <Competencias conteudo='comapd'></Competencias>
-          <Competencias conteudo='comapd'></Competencias>
-          <Competencias conteudo='comapd'></Competencias>
-          <Competencias conteudo='comapd'></Competencias>
-          <Competencias conteudo='comapd'></Competencias>
-          <Competencias conteudo='comapd'></Competencias>
+        <Box elevation='large' margin={{right: '50px'}} round='20px' pad='10px' width='fit-content' height='fit-content' background='black'>
+            <Text color='white'>pskdflsdf</Text>
+        </Box>
         </Box>
       </Box>
       <Box align='center'>
