@@ -30,7 +30,6 @@ export default function Topo() {
                 <Box margin={{ right: '50px' }} pad='5px'>
                     <Button color='white' plain={false}>Redes</Button>
                 </Box>
-
             </Box>
         </Header>
     )
